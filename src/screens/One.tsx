@@ -1,7 +1,8 @@
 // third-party deps
 import React from 'react';
+import { Button } from 'react-native-paper';
+import { View, Text, StyleSheet } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { View, Text, StyleSheet, Button } from 'react-native';
 
 // internal deps
 import { AppStackParamList } from '../navigation/AppStackNavigator';
@@ -14,7 +15,9 @@ export const ScreenOne: React.FC<ScreenOneProps> = ({ navigation: { navigate } }
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to screen one!</Text>
-      <Button onPress={() => navigate('Two')} title='Go to screen two' color='green' />
+      <Button mode='contained' onPress={() => navigate('Two')}>
+        Go to screen two
+      </Button>
     </View>
   );
 };
