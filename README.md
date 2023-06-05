@@ -72,6 +72,32 @@ degit https://github.com/som3aware/blaze my-app-folder
 
 ## 🚀 Usage
 
+### Theming
+
+The colors follow the react native paper `MD2Colors` and react navigation `Theme.colors` interfaces. To add your app colors, open [/themes/index.ts](./src/theme/index.ts) and change the values of the colors.
+
+#### MD2Colors
+
+- `primary` - primary color for your app, usually your brand color.
+- `accent` - secondary color for your app which complements the primary color.
+- `background` - background color for pages, such as lists.
+- `surface` - background color for elements containing content, such as cards.
+- `text` - text color for content.
+- `disabled` - color for disabled elements.
+- `placeholder` - color for placeholder text, such as input placeholder.
+- `backdrop` - color for backdrops of various components such as modals.
+- `onSurface` - background color for snackbars
+- `notification` - background color for badges
+
+#### Theme.colors
+
+- `primary` - primary color of the app used to tint various elements. Usually you'll want to use your brand color for this.
+- `background`: color of various backgrounds, such as background color for the screens.
+- `card`: background color of card-like elements, such as headers, tab bars etc.
+- `text`: text color of various elements.
+- `border`: color of borders, e.g. header border, tab bar border etc.
+- `notification`: color of Tab Navigator badge.
+
 ### Screens
 
 - Define your screens under [/screens](./src/screens/).
