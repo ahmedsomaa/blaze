@@ -22,16 +22,61 @@ This boilerplate is powered by:
 
 ## 📦 Installation
 
+Before using this boilerplate, you need to check if you have `Node.js` and `NPM` installed on your computer.
+
+To check if you have `Node.js` installed, run this command in your terminal:
+
 ```sh
-$ npm install -g degit
-$ degit https://github.com/som3aware/blaze my-app
+node -v
+```
+
+If you get an answer like this, it means that `Node.js` is installed and you may go to the [next section](#scaffolding-your-app).
+
+```sh
+v18.16.0
+```
+
+To confirm that you have `NPM` installed you can run this command in your terminal:
+
+```sh
+npm -v
+```
+
+If you get an answer like this, it means that `Node.js` is installed and you may go to the [next section](#scaffolding-your-app).
+
+```sh
+9.5.1
+```
+
+If `Node.js` or `NPM` is not installed you can install them on [this link](https://nodejs.org/en/) or use [Node Version Manager](https://github.com/nvm-sh/nvm).
+
+Don't forget to update `NPM` after installing `Node.js`:
+
+```sh
+npm install npm@latest -g
+```
+
+### Scaffolding your app
+
+Install [degit](https://github.com/Rich-Harris/degit).
+
+```sh
+npm install -g degit
+```
+
+Scaffold your project into a new folder
+
+```sh
+degit https://github.com/som3aware/blaze my-app-folder
 ```
 
 ## 🚀 Usage
 
 ### Screens
 
-Define your screens under [/screens](./src/screens/). Follow the screen structure in [One.tsx](./src/screens/One.tsx). Make sure to export your screen from [/screens/index.ts](./src/screens/index.ts).
+- Define your screens under [/screens](./src/screens/).
+- Follow the screen structure in [One.tsx](./src/screens/One.tsx).
+- Export your screen from [/screens/index.ts](./src/screens/index.ts).
 
 ### Navigation
 
