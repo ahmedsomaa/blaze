@@ -20,7 +20,7 @@ This boilerplate is powered by:
 - [React Navigation](https://reactnavigation.org/).
 - [React Native Paper](https://callstack.github.io/react-native-paper/).
 
-## 📦 Installation
+## ⚙️ Installation
 
 Before using this boilerplate, you need to check if you have `Node.js` and `NPM` installed on your computer.
 
