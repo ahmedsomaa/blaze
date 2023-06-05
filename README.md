@@ -70,6 +70,13 @@ Scaffold your project into a new folder
 degit https://github.com/som3aware/blaze my-app-folder
 ```
 
+Install project dependencies
+
+```sh
+cd my-app-foler
+npm install
+```
+
 ## 🚀 Usage
 
 ### Theming
